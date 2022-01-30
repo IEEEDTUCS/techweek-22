@@ -1,8 +1,8 @@
 @import "../utils/Colors.scss";
 
 .blog-container {
-  height: 100%;
-  width: 100%;
+  min-height: 50vh;
+  min-width: 30vh;
   background-color: white;
   border-radius: 0.4rem;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -11,7 +11,6 @@
     box-shadow: #f32a8f2f 5px 5px, #f32a8f1e 10px 10px, #f32a8f02 15px 15px;
   }
   .image {
-    height: 12rem;
     img {
       height: 12rem;
       width: 100%;

@@ -25,7 +25,9 @@ export default function Starter() {
           <p>TECHWEEK is the annual workshop galore organised by IEEE DTU which offers budding engineers an insight into the various new and upcoming technologies.</p>
           <div className="button-container">
             {/* <Button content="Watch Video" icon={<GoPlay />}/> */}
-            <Button color="pink" content="Register" icon={<HiOutlineArrowNarrowRight />} />
+            <a href="https://bit.ly/ieee-techweek22" style={{ textDecoration: "none" }} target="_blank" rel="noreferrer">
+              <Button color="pink" content="Register" icon={<HiOutlineArrowNarrowRight />} />
+            </a>
           </div>
         </motion.div>
         <motion.div className="image" variants={imageAnimation} animate={controls} transition={{ type: "tween" }}>
